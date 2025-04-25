@@ -10,9 +10,9 @@ time parallel -j 10 ./load_denormalized.sh {} ::: $files
 echo '================================================================================'
 echo 'load pg_normalized'
 echo '================================================================================'
-# FIXME: implement this with GNU parallel
+time parallel -j 10 ./load_normalized.sh {} ::: $files
 
 echo '================================================================================'
 echo 'load pg_normalized_batch'
 echo '================================================================================'
-# FIXME: implement this with GNU parallel
+time parallel -j 10 ./load_normalized_batch.sh {} ::: $files
