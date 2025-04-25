@@ -15,4 +15,3 @@ time parallel -j 10 ./load_normalized.sh {} ::: $files
 echo '================================================================================'
 echo 'load pg_normalized_batch'
 echo '================================================================================'
-time parallel -j 10 ./load_normalized_batch.sh {} ::: $files
