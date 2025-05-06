@@ -1,0 +1,237 @@
+nohup: ignoring input
+================================================================================
+load pg_denormalized
+================================================================================
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+COPY 10000
+5.24user 2.19system 0:12.95elapsed 57%CPU (0avgtext+0avgdata 18560maxresident)k
+108368inputs+3216outputs (25major+43489minor)pagefaults 0swaps
+================================================================================
+load pg_normalized
+================================================================================
+2025-05-05 22:12:37.234634 data/geoTwitter21-01-02.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.332591 data/geoTwitter21-01-01.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.311128 data/geoTwitter21-01-03.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.312460 data/geoTwitter21-01-04.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.315204 data/geoTwitter21-01-05.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.312966 data/geoTwitter21-01-06.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.250545 data/geoTwitter21-01-07.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.271634 data/geoTwitter21-01-08.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.326478 data/geoTwitter21-01-09.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2025-05-05 22:12:37.235543 data/geoTwitter21-01-10.zip
+Traceback (most recent call last):
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 473, in <module>
+    insert_tweet(connection,tweet)
+  File "/data/users_bigdata/Jonathan.Wise.25/twitter_postgres_parallel/load_tweets.py", line 117, in insert_tweet
+    with connection.begin() as trans:
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/Jonathan.Wise.25/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 862, in begin
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+Command exited with non-zero status 10
+4.33user 0.51system 0:02.60elapsed 185%CPU (0avgtext+0avgdata 46080maxresident)k
+9096inputs+2184outputs (9major+99465minor)pagefaults 0swaps
+================================================================================
+load pg_normalized_batch
+================================================================================
+2025-05-05 22:12:38.408352 data/geoTwitter21-01-07.zip
+2025-05-05 22:12:39.388344 insert_tweets batch= 0
+2025-05-05 22:12:41.065592 insert_tweets batch= 1
+2025-05-05 22:12:42.238875 insert_tweets batch= 2
+2025-05-05 22:12:43.233281 insert_tweets batch= 3
+2025-05-05 22:12:44.121271 insert_tweets batch= 4
+2025-05-05 22:12:44.727294 insert_tweets batch= 5
+2025-05-05 22:12:45.603158 insert_tweets batch= 6
+2025-05-05 22:12:46.558043 insert_tweets batch= 7
+2025-05-05 22:12:47.196637 insert_tweets batch= 8
+2025-05-05 22:12:48.400820 insert_tweets batch= 9
+2025-05-05 22:12:38.478908 data/geoTwitter21-01-10.zip
+2025-05-05 22:12:39.303435 insert_tweets batch= 0
+2025-05-05 22:12:41.051482 insert_tweets batch= 1
+2025-05-05 22:12:42.302114 insert_tweets batch= 2
+2025-05-05 22:12:43.346346 insert_tweets batch= 3
+2025-05-05 22:12:43.968556 insert_tweets batch= 4
+2025-05-05 22:12:44.794740 insert_tweets batch= 5
+2025-05-05 22:12:45.637742 insert_tweets batch= 6
+2025-05-05 22:12:46.618872 insert_tweets batch= 7
+2025-05-05 22:12:47.233428 insert_tweets batch= 8
+2025-05-05 22:12:48.355696 insert_tweets batch= 9
+2025-05-05 22:12:38.440664 data/geoTwitter21-01-04.zip
+2025-05-05 22:12:39.542387 insert_tweets batch= 0
+2025-05-05 22:12:41.241131 insert_tweets batch= 1
+2025-05-05 22:12:42.215873 insert_tweets batch= 2
+2025-05-05 22:12:43.157663 insert_tweets batch= 3
+2025-05-05 22:12:43.723415 insert_tweets batch= 4
+2025-05-05 22:12:44.708880 insert_tweets batch= 5
+2025-05-05 22:12:45.697452 insert_tweets batch= 6
+2025-05-05 22:12:46.280216 insert_tweets batch= 7
+2025-05-05 22:12:47.264473 insert_tweets batch= 8
+2025-05-05 22:12:48.282352 insert_tweets batch= 9
+2025-05-05 22:12:38.379583 data/geoTwitter21-01-08.zip
+2025-05-05 22:12:39.270142 insert_tweets batch= 0
+2025-05-05 22:12:40.862392 insert_tweets batch= 1
+2025-05-05 22:12:41.776856 insert_tweets batch= 2
+2025-05-05 22:12:42.791557 insert_tweets batch= 3
+2025-05-05 22:12:43.740152 insert_tweets batch= 4
+2025-05-05 22:12:44.435680 insert_tweets batch= 5
+2025-05-05 22:12:45.551030 insert_tweets batch= 6
+2025-05-05 22:12:46.633552 insert_tweets batch= 7
+2025-05-05 22:12:47.265931 insert_tweets batch= 8
+2025-05-05 22:12:48.271934 insert_tweets batch= 9
+2025-05-05 22:12:38.380196 data/geoTwitter21-01-01.zip
+2025-05-05 22:12:39.265846 insert_tweets batch= 0
+2025-05-05 22:12:40.961195 insert_tweets batch= 1
+2025-05-05 22:12:41.989521 insert_tweets batch= 2
+2025-05-05 22:12:43.003076 insert_tweets batch= 3
+2025-05-05 22:12:43.622914 insert_tweets batch= 4
+2025-05-05 22:12:44.687322 insert_tweets batch= 5
+2025-05-05 22:12:45.628459 insert_tweets batch= 6
+2025-05-05 22:12:46.736985 insert_tweets batch= 7
+2025-05-05 22:12:47.340866 insert_tweets batch= 8
+2025-05-05 22:12:48.425088 insert_tweets batch= 9
+2025-05-05 22:12:38.424311 data/geoTwitter21-01-03.zip
+2025-05-05 22:12:39.251431 insert_tweets batch= 0
+2025-05-05 22:12:40.895160 insert_tweets batch= 1
+2025-05-05 22:12:41.925630 insert_tweets batch= 2
+2025-05-05 22:12:42.904797 insert_tweets batch= 3
+2025-05-05 22:12:43.903178 insert_tweets batch= 4
+2025-05-05 22:12:44.572624 insert_tweets batch= 5
+2025-05-05 22:12:45.476284 insert_tweets batch= 6
+2025-05-05 22:12:46.542382 insert_tweets batch= 7
+2025-05-05 22:12:47.183318 insert_tweets batch= 8
+2025-05-05 22:12:48.271090 insert_tweets batch= 9
+2025-05-05 22:12:38.381080 data/geoTwitter21-01-05.zip
+2025-05-05 22:12:39.313736 insert_tweets batch= 0
+2025-05-05 22:12:40.941463 insert_tweets batch= 1
+2025-05-05 22:12:41.891648 insert_tweets batch= 2
+2025-05-05 22:12:42.825291 insert_tweets batch= 3
+2025-05-05 22:12:43.746645 insert_tweets batch= 4
+2025-05-05 22:12:44.481748 insert_tweets batch= 5
+2025-05-05 22:12:45.592619 insert_tweets batch= 6
+2025-05-05 22:12:46.595047 insert_tweets batch= 7
+2025-05-05 22:12:47.215934 insert_tweets batch= 8
+2025-05-05 22:12:48.243988 insert_tweets batch= 9
+2025-05-05 22:12:38.413167 data/geoTwitter21-01-06.zip
+2025-05-05 22:12:39.312110 insert_tweets batch= 0
+2025-05-05 22:12:40.917519 insert_tweets batch= 1
+2025-05-05 22:12:41.892312 insert_tweets batch= 2
+2025-05-05 22:12:42.995232 insert_tweets batch= 3
+2025-05-05 22:12:43.916350 insert_tweets batch= 4
+2025-05-05 22:12:44.742059 insert_tweets batch= 5
+2025-05-05 22:12:45.763446 insert_tweets batch= 6
+2025-05-05 22:12:46.859624 insert_tweets batch= 7
+2025-05-05 22:12:47.427150 insert_tweets batch= 8
+2025-05-05 22:12:48.452143 insert_tweets batch= 9
+2025-05-05 22:12:38.385713 data/geoTwitter21-01-02.zip
+2025-05-05 22:12:39.301839 insert_tweets batch= 0
+2025-05-05 22:12:41.098355 insert_tweets batch= 1
+2025-05-05 22:12:42.226199 insert_tweets batch= 2
+2025-05-05 22:12:43.309244 insert_tweets batch= 3
+2025-05-05 22:12:44.259442 insert_tweets batch= 4
+2025-05-05 22:12:44.937882 insert_tweets batch= 5
+2025-05-05 22:12:46.025220 insert_tweets batch= 6
+2025-05-05 22:12:47.039542 insert_tweets batch= 7
+2025-05-05 22:12:47.754676 insert_tweets batch= 8
+2025-05-05 22:12:48.888333 insert_tweets batch= 9
+2025-05-05 22:12:38.438896 data/geoTwitter21-01-09.zip
+2025-05-05 22:12:39.453841 insert_tweets batch= 0
+2025-05-05 22:12:41.332707 insert_tweets batch= 1
+2025-05-05 22:12:42.513574 insert_tweets batch= 2
+2025-05-05 22:12:43.601015 insert_tweets batch= 3
+2025-05-05 22:12:44.383756 insert_tweets batch= 4
+2025-05-05 22:12:45.450311 insert_tweets batch= 5
+2025-05-05 22:12:46.507099 insert_tweets batch= 6
+2025-05-05 22:12:47.553285 insert_tweets batch= 7
+2025-05-05 22:12:48.303833 insert_tweets batch= 8
+2025-05-05 22:12:49.444822 insert_tweets batch= 9
+107.81user 4.77system 0:13.91elapsed 809%CPU (0avgtext+0avgdata 390676maxresident)k
+32inputs+3504outputs (3major+2130550minor)pagefaults 0swaps
